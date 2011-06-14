@@ -3,21 +3,53 @@
 <head>
 	<title>Jeter Filter - The Chrome extension that removes Derek Jeter from the Internet.</title>
 	<link href="styles/index.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"></script>
+	<script type="text/javascript">
+	</script>
 </head>
 <body>
 	<div id="container">
-		<div id="header">
+		<div id="header" class="bookendContainer">
 			<h1>Jeter Filter</h1>
+			<h2>Remove Derek Jeter from your Internet</h2>
 		</div>
-		<div id="marquee">
-			<h2>Marquee</h2>
+		<div id="navigation" class="contentContainer">
+			<ul id="navigationList">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="developers.html">Developers</a></li>			
+			</ul>
 		</div>
-		<div id="content">
-			<h2>Things</h2>
+		<div id="carouselContainer" class="contentContainer">
+			<div id="install" class="smallContent">
+				<a href=""><img src="images/clicktoinstall-200x200.png" /></a>
+			</div>
+			<div id="carousel" class="bigContent">
+				<h2>No more number two</h2>
+				<p>Jeter Filter is the <strong>Chrome Extension</strong> that filters out Derek Jeter from any webpage you visit.</p>
+			</div>
 		</div>
-		<div id="footer">
-			<p>This work is licensed under GPLv3.  Created by Rob Spectre.  Lovingly crafted in Brooklyn, NY.</p>
+		<div id="features" class="contentContainer">
+			<h3>Features</h3>
+			<dl>
+				<dt>Remove Derek Jeter</dt>
+				<dd>Totally get rid of that fucker.</dd>
+				<dt>Forewarned is Forearmed</dt>
+				<dd>Get a visual notification when Derek Jeter might be on the webpage you are viewing, a cue you should navigate away quickly.</dd>
+				<dt>Set Your Own Jeter Threshold</dt>
+				<dd>Set the Jeter Filter to the amount of Jeter you feel your psyche can handle.</dd>
+				<dt>Make The World A Better Place</dt>
+				<dd>Jeter Filter anonymously reports each webpage found to contain Derek Jeter to FluidInfo.</dd>
+				
+			</dl>
+		</div>
+		<div id="testimonials" class="contentContainer">
+			<h3>Testimonials</h3>
+		</div>
+		<div id="footer" class="bookendContainer">
+			<p>This work is licensed under <a href="http://www.gnu.org/licenses/gpl.html">GPLv3</a>. Created by <a href="http://about.me/robspectre">Rob Spectre</a>. Lovingly crafted in Brooklyn, NY.</p>
 		</div>
 	</div>
 </body>

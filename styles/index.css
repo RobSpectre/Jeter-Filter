@@ -1,0 +1,210 @@
+/*	Main styles		*/
+
+html, body {
+	width: 100%;
+	font-family: Verdana, sans-serif;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+body {
+	background: rgb(31, 100, 91) url('../images/background-1153x371.png') no-repeat;
+	margin: 10px 0 50px 0;
+}
+
+div {
+	margin: 0;
+	padding: 0;	
+	display: block;
+}
+
+
+/*	Containers	*/
+
+#container {
+	width: 880px;
+	margin: 0 auto 0 auto;
+}
+
+.bookendContainer {
+	width: 700px;
+	margin: 0 0 0 90px;
+}
+
+.contentContainer {
+	border-left: 5px solid #f8fdf9;
+	border-right: 5px solid #f8fdf9;
+	background: #5a5c53;
+	margin: 0;
+	padding: 5px 10px 5px 10px;	
+}
+
+.contentContainer h3 {
+	font-family: 'Didact Gothic', arial, serif;
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	margin: 0 -8px 0 0;	
+	padding: 0;
+	color: white;
+	letter-spacing: 12px;
+	clear: both;
+}
+
+
+.bigContent {
+	margin-right: 220px;
+	width: 620px;
+	height: 240px;
+	border-right: 5px solid #f8fdf9;
+	border-bottom: 5px solid #f8fdf9;
+}
+
+.smallContent {
+	float: right;
+	margin: 20px 0 0 0;
+	width: 220px;
+	height: 240px;
+	border-right: 5px solid #f8fdf9;
+	border-bottom: 5px solid #f8fdf9;
+}
+
+
+/*	Header	*/
+#header {
+	background: url('../images/bosoxlogo-700x135.png') center no-repeat;
+	height: 205px;
+	margin-bottom: 40px;
+}
+
+#header h1 {
+	display: none;
+}
+
+#header h2 {
+	padding: 170px 0 0 0;
+	font-family: 'Didact Gothic', arial, serif;
+	font-size: 32px;
+	text-align: center;
+	color: white;	
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+
+
+/*	Navigation 	*/
+
+#navigation {
+	border-top: 5px solid #f8fdf9;
+	margin: 0;
+	padding: 10px 0 20px 0;
+}
+
+#navigation ul {
+	list-style: none;
+	text-align: right;
+	margin: 0 2px 0 0;
+	padding: 0;
+}
+
+#navigation li {
+	font-family: 'Didact Gothic', arial, serif;
+	font-size: 32px;	
+	text-transform: uppercase;
+	display: inline;	
+	margin: 0 0 0 50px;
+	font-weight: bold;
+	letter-spacing: 10px;
+}
+
+#navigation a:hover {
+	border: 2px gray inset;
+	margin: 0 -2px 0 -2px;
+}
+
+
+/* Carousel	*/
+
+#carousel {
+	margin: 0;
+	padding: 0;
+	background: url('../images/carousel-instructions-620x240.png') center no-repeat;	
+}
+
+#carousel h2 {
+	margin: 20px;
+	font-family: 'Didact Gothic', arial, serif;
+	font-size: 42px;
+	text-transform: uppercase;	
+	text-align: left;
+	letter-spacing: 4px;
+}
+
+#carousel p {
+	margin: 15px 0 0 200px;
+	font-size: 28px;
+	width: 420px;	
+}
+
+
+/*	Install Button	*/
+
+#install {
+	
+}
+
+
+/*	Features		*/
+
+#features dl {
+	border-right: 5px solid #f8fdf9;
+	border-bottom: 5px solid #f8fdf9;
+}
+
+#features dt {
+	font-family: 'Didact Gothic', arial, serif;
+	width: 460px;
+	margin: 10px 0 10px 0;
+	padding: 5px;
+	font-size: 28px;
+	font-weight: bold;
+	border: 2px gray inset;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;	
+}
+
+#features dd {
+	margin: 20px 0 60px 60px;
+}
+
+
+/* Testimonials  */
+
+#testimonials {
+	border-bottom: 5px solid #f8fdf9;
+}
+
+
+/*	Footer	*/
+
+#footer {
+	padding: -5px 0 -1px 0;
+}
+
+#footer p {
+	margin: 3px 0 0 0;
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	border-top: none;
+}
+
