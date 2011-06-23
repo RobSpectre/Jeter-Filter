@@ -292,3 +292,12 @@ div {
 	clear: both;
 	height: 60px;
 }
+
+#redditbutton {
+	float: left;
+	margin: 3px 0 0 20%;	
+}
+
+#facebooklike {
+	margin: 0 0 -40px 55%;
+}
