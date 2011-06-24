@@ -108,7 +108,7 @@ div {
 #header h2 {
 	padding: 170px 0 0 0;
 	font-family: 'Didact Gothic', arial, serif;
-	font-size: 32px;
+	font-size: 1.7em;
 	text-align: center;
 	color: white;	
 	text-transform: uppercase;
@@ -163,7 +163,7 @@ div {
 #carousel h2 {
 	margin: 20px 0 0 20px;
 	font-family: 'Didact Gothic', arial, serif;
-	font-size: 48px;
+	font-size: 2.7em;
 	text-transform: uppercase;	
 	text-align: left;
 	letter-spacing: 4px;
@@ -253,6 +253,19 @@ div {
 	-khtml-border-radius: 3px;
 	-webkit-border-radius: 3px;
 }
+
+
+dt {
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 1.5em;	
+}
+
+dd {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
 
 /* Testimonials  */
 
